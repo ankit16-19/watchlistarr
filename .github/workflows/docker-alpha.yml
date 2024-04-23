@@ -9,7 +9,6 @@ env:
   DOCKER_FILE: docker/Dockerfile
   DOCKER_PLATFORMS: "linux/arm64/v8,linux/amd64"
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
